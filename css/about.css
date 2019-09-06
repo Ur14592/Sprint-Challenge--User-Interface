@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -61,9 +62,15 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+h1{
+    padding-top: 4%;
+    padding-left: 3%;
+}
 
 p {
     line-height: 1.4;
+    padding-left: 3%;
+    padding-bottom: 2%;
 }
 
 .container {
@@ -158,8 +165,6 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
-    display:flex;
-    flex-wrap: wrap;
 }
 
 .bottom-content .text-container:last-child {
@@ -188,18 +193,63 @@ footer nav a {
 header nav a{
     color: black;
     text-decoration: none;
-    padding: 8% ;
-    padding-left: 0%;
-  
+    padding: 32px ;
 
 }
-header nav a .logo{
-
+header nav{
+    padding-bottom: 3%;
 }
-
+header nav .logo{
+    padding-left: 20%;
+}
 .box1{
     background: teal;
     background: red;
     border: 1px solid black;
     width: 400px;
+  }
+
+
+  .about-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-top: 1px dashed black;
+    margin: 10px;
+    }
+
+  .about-content2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px;
+  }
+  
+  .about-item {
+    margin: 20px 15px 0 5px;
+    padding-bottom: 1%;
+    padding-top: 3%;
+    background: white;
+    width: 400px;
+    border-bottom: 1px dashed black;  
+  }
+  .about-item , h2{
+      margin-top: 5px;
+  }
+  
+  .about-item p {
+    line-height: 18px;
+    padding-left: 0%;
+
+  }
+  .about-item button {
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 7px 20px 7px 20px;
+    border: 2px solid black;  
+    border-radius: 5px;
+  }
+
+  img {
+    max-width: 100%;  
   }
